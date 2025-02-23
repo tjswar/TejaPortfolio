@@ -105,6 +105,14 @@ export default function Home() {
       tags: ["LLM", "AWS SageMaker", "AI", "NLP", "Jupyter"],
       link: "https://github.com/tjswar/LLM-Training.git",
     },
+    {
+      title: "Virtual Reality Interface for Algorand Explorer",
+      description: `An immersive VR-powered blockchain explorer that visualizes Algorand transactions and smart contract data in a 3D environment. Built using A-Frame and Three.js, the interface enables users to interact with real-time blockchain data in an intuitive and engaging way.`,
+      icon: VRChain,
+      gradient: "from-orange-500 to-red-500",
+      tags: ["AFrame", "ThreeJS", "VR", "Blockchain", "WebGL"],
+      link: "https://github.com/tjswar/algorandExplorer.git",
+    },
   ]
 
   // Then update your certifications array declaration
