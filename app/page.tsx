@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Github, Linkedin, Mail, MoveDown, ExternalLink, FileText, Download, X, Menu, Smartphone, Cloud, Car, Brain, Award, CloudLightning, Code } from "lucide-react"
+import { Github, Linkedin, Mail, MoveDown, ExternalLink, FileText, Download, X, Menu, Smartphone, Cloud, Car, Brain, Award, CloudLightning, Code, Cube } from "lucide-react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -108,7 +108,7 @@ export default function Home() {
     {
       title: "Virtual Reality Interface for Algorand Explorer",
       description: `An immersive VR-powered blockchain explorer that visualizes Algorand transactions and smart contract data in a 3D environment. Built using A-Frame and Three.js, the interface enables users to interact with real-time blockchain data in an intuitive and engaging way.`,
-      icon: VRChain,
+      icon: Cube,
       gradient: "from-orange-500 to-red-500",
       tags: ["AFrame", "ThreeJS", "VR", "Blockchain", "WebGL"],
       link: "https://github.com/tjswar/algorandExplorer.git",
