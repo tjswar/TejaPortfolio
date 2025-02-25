@@ -118,6 +118,12 @@ export default function Home() {
   // Then update your certifications array declaration
   const certifications: Certification[] = [
     {
+      title: "AWS Certified AI Practitioner",
+      description: "Demonstrated proficiency in artificial intelligence fundamentals and AWS AI/ML service implementation.",
+      icon: Cloud,
+      link: "https://www.credly.com/badges/77046440-b66c-4d5c-a7fa-be029e20dd67/linked_in_profile"
+    },
+    {
       title: "Introducing Generative AI with AWS",
       description: "Comprehensive knowledge of machine learning techniques and deployment using AWS SageMaker",
       icon: CloudLightning,
